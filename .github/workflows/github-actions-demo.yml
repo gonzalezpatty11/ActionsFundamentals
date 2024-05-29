@@ -26,7 +26,6 @@ jobs:
      - name: List files in the repository
        run: |
           echo "The repository ${{ github.repository }} contains the following files:"
-          tree
 
 Test:
     runs-on: ubuntu-latest
